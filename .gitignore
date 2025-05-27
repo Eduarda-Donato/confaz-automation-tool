@@ -1,10 +1,32 @@
-# Python-generated files
+# Python bytecode
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.so
+*.pyd
+
+# Distribution / packaging
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+*.spec
+
+# Executáveis
+*.exe
 
 # Virtual environments
-.venv
+.venv/
+env/
+venv/
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Ferramentas de lint e cache
+.ruff_cache/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+.DS_Store
