@@ -1,5 +1,6 @@
 from openpyxl.styles import Alignment, PatternFill, Border, Side, Font
 
+
 FILL_YELLOW = PatternFill(start_color="FFFF00", end_color="FFFF00", fill_type="solid")
 BORDER_MEDIUM = Border(
     left=Side(style="medium", color="000000"),

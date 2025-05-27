@@ -3,6 +3,7 @@ from flet import Page, ElevatedButton, Text, Column, Row, Container
 
 from process import process_data
 
+
 def main_interface(page: ft.Page):
     page.title = "Sistema CONFAZ"
     page.theme_mode = ft.ThemeMode.LIGHT

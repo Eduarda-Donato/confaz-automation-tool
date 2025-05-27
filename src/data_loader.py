@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 
+
 DOC_TYPE = ["DOC", "DECRETO", "LEI"]
 
 def dataload_month(month_path: str) -> pd.DataFrame:
